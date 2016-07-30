@@ -11,28 +11,44 @@ body {
 	font-family: 'Open Sans', 'Helvetica';
 	width: 80rem;
 	margin: auto;
+	text-align: center;
+	color:#605959;
 }
 
+a {
+	text-decoration: none;
+}
 .header {
 	/*border:2px solid cornflowerblue;*/
 	width: 100%;
 	height: auto;
 	font-size: 2em;
 	margin: 0 0 1em 0;
+	padding:0.5rem;
+	text-align: left;
+	border-bottom: 2px solid #EBEBE4;
 }
 
 .footer {
 	/*border:2px solid cornflowerblue;*/
+	text-align: left;
+	padding:0.5rem;
 }
 
 .frame {
+	padding:0.5rem;
+}
+
+.board {
 	height: 70%;
 	width: auto;
 	padding: .25rem;
-	background-color: gold;
+	margin: auto;
+	overflow: hidden;
+
 }
 
-#logo {
+#logo, #user {
 	padding: .5rem;
 	max-height: 3rem;
 	max-width: auto;
@@ -44,18 +60,90 @@ body {
  	max-width: 10rem;
  	vertical-align: top;
  	display:inline-block;
+ 	font-family: 'Oswald';
+ 	color:#799278;
 }
 
-#logo-img {
+#logo-img, #user-img {
 	max-height: 2.5rem;
 	width: auto;
 	display: inline-block;
-	font-family: 'Oswald';
+
+}
+
+#user {
+	float: right;
+}
+
+#user:hover {
+	cursor: pointer;
+}
+#user-txt {
+	font-size: 0.8em;
+ 	vertical-align: top;
+ 	display:inline-block;
 }
 
 .board-elem {
 	height: 98%;
-
-	display: inline-block;
-	background-color: #FFFFFF;
+	float: left;
+	border: .01rem solid #F6E294;
+	overflow: hidden;
+	text-align: left;
 }
+
+.sticky {
+	max-height: 98%;
+	min-height: 1rem;
+	min-width: 5rem;
+	max-width:98%;
+	height: 49%;
+	width: 49%;
+	resize: both;
+	overflow: hidden;
+	/*background-color: #F9D0D0;*/
+	background-color: #DAF3E4;
+	/*float: left;*/
+	display: inline-block;
+	/*border: 0.1rem solid #E8C8C8;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0.1rem;
+
+}
+
+.sticky-title {
+	resize: none;
+	background-color: transparent;
+	padding: 0.1rem;
+	height: auto;
+	font-size: 1.1em;
+	font-weight: bolder;
+	width: 85%;
+	border: none;
+}
+
+.sticky-content {
+	padding: 5%;
+	height: 90%;
+	width: 90%;
+	resize: none;
+	background-color: transparent;
+	border: none;
+}
+
+.sticky-delete-button {
+	float:right;
+	border-radius: 100%;
+	width: 1rem;
+	height:1rem;
+	font-size: 1.5em;
+	text-align: center;
+	vertical-align:center;
+}
+
+.sticky-delete-button:hover {
+	cursor:pointer;
+}
+
