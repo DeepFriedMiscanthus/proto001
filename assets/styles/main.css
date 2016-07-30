@@ -1,0 +1,61 @@
+@import url('./reset.css');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Oswald';
+
+html {
+	height: 100%
+	width: 100%;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Open Sans', 'Helvetica';
+	width: 80rem;
+	margin: auto;
+}
+
+.header {
+	/*border:2px solid cornflowerblue;*/
+	width: 100%;
+	height: auto;
+	font-size: 2em;
+	margin: 0 0 1em 0;
+}
+
+.footer {
+	/*border:2px solid cornflowerblue;*/
+}
+
+.frame {
+	height: 70%;
+	width: auto;
+	padding: .25rem;
+	background-color: gold;
+}
+
+#logo {
+	padding: .5rem;
+	max-height: 3rem;
+	max-width: auto;
+	display: inline-block;
+}
+
+#logo-txt {
+	font-size: 1.25em;
+ 	max-width: 10rem;
+ 	vertical-align: top;
+ 	display:inline-block;
+}
+
+#logo-img {
+	max-height: 2.5rem;
+	width: auto;
+	display: inline-block;
+	font-family: 'Oswald';
+}
+
+.board-elem {
+	height: 98%;
+
+	display: inline-block;
+	background-color: #FFFFFF;
+}
