@@ -1,0 +1,87 @@
+.board {
+	height: 70%;
+	width: 98%;
+	padding: 0 0.5rem 0 0.5rem;
+	margin: auto;
+}
+
+.board-elem {
+	height: 100%;
+	padding: 0.5rem;
+	min-width: 18rem;
+	float: left;
+	/*border: 0.2rem solid #F6E294;*/
+	border: 2px solid #EBEBE4;
+	overflow: hidden;
+	
+}
+
+.board-elem:hover {
+	cursor: pointer;
+}
+
+.board-elem p {
+	cursor: default;
+	width: 100%;
+}
+
+.sticky {
+	text-align: left;
+	max-height: 98%;
+	min-height: 1rem;
+	min-width: 10rem;
+	max-width:98%;
+	height: 49%;
+	width: 49%;
+	resize: both;
+	overflow: hidden;
+	/*background-color: #F9D0D0;*/
+	background-color: #D8EED7;
+	/*float: left;*/
+	display: inline-block;
+	/*border: 0.1rem solid #E8C8C8;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0.1rem;
+
+}
+
+@media (max-width: 496px) {
+    .sticky {
+        width:98%;
+    }
+}
+
+
+.sticky-title {
+	resize: none;
+	background-color: transparent;
+	padding: 0.5rem 0 0 0.5rem;
+	height: 2rem;
+	font-size: 1.1em;
+	font-weight: bolder;
+	width: 80%;
+	border: none;
+}
+
+.sticky-content {
+	padding: 5%;
+	height: 90%;
+	width: 90%;
+	resize: none;
+	background-color: transparent;
+	border: none;
+}
+
+.sticky-delete-button {
+	float:right;
+	width: 2rem;
+	padding:0.5rem;
+	text-align: center;
+	vertical-align:center;
+}
+
+.sticky-delete-button:hover {
+	cursor:pointer;
+}

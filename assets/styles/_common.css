@@ -1,0 +1,62 @@
+.header {
+	/*border:2px solid cornflowerblue;*/
+	width: 100%;
+	height: auto;
+	font-size: 1em;
+	margin: 1rem 0 1rem 0;
+	padding:0.5rem;
+	text-align: left;
+	border-bottom: 5px solid #799278;
+}
+
+.footer {
+	border-top: 2px solid #C8D1C8;
+	text-align: left;
+	margin: 1rem 0 1rem 0;
+	padding:0.5rem;
+}
+
+.frame {
+	width: 100%;
+	margin: 2rem 0 2rem 0;
+}
+
+
+#logo, #user {
+	padding: .5rem;
+	height: 100%;
+	max-height: 3rem;
+	max-width: auto;
+	display: inline-block;
+}
+
+#logo-txt {
+	font-size: 32px;
+	height:100%;
+ 	max-width: 10rem;
+ 	vertical-align: top;
+ 	display:inline-block;
+ 	font-family: 'Oswald','Open Sans';
+ 	color:#799278;
+}
+
+#logo-img, #user-img {
+	max-height: 4rem;
+	margin-top:-4px;
+	width: auto;
+	display: inline-block;
+
+}
+
+#user {
+	float: right;
+}
+
+#user:hover {
+	cursor: pointer;
+}
+#user-txt {
+	font-size: 1em;
+ 	vertical-align: top;
+ 	display:inline-block;
+}
